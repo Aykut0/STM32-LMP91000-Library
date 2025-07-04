@@ -1,15 +1,6 @@
 # STM32 LMP91000 Library
 
-A simple and easy-to-use STM32 HAL library for the Texas Instruments LMP91000 precision analog front-end IC, designed for electrochemical sensor applications.
-
-## Features
-
-- 🎯 Simple API for configuring TIA gain and reference settings
-- ⚡ Built for STM32 HAL framework
-- 🔧 Easy configuration of all key LMP91000 parameters
-- 📊 Support for 3-lead amperometric and 2-lead galvanic sensors
-- 🛡️ Error handling and status reporting
-- 📚 Example code included
+A simple STM32 HAL library for the Texas Instruments LMP91000 precision analog front-end IC, designed for electrochemical sensor applications.
 
 ## Hardware Requirements
 
@@ -122,12 +113,7 @@ See the `examples/` directory for complete implementation examples including:
 ## Tested Platforms
 
 - STM32WB series
-- STM32F4 series
-- Other STM32 HAL-compatible microcontrollers
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
 
 ## License
 
@@ -138,7 +124,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [LMP91000 Datasheet](https://www.ti.com/lit/ds/symlink/lmp91000.pdf)
 - [LMP91000 EVM User Guide](https://www.ti.com/lit/ug/snau121a/snau121a.pdf)
 
-## Acknowledgments
-
-- Texas Instruments for the LMP91000 IC and comprehensive documentation
-- STMicroelectronics for the STM32 HAL library
